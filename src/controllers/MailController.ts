@@ -45,11 +45,11 @@ const logger = Logging;
  */
 
 const sendMail = async (req: Request, res: Response, next: NextFunction) => {
-    /* const { error } = mailRequestBodySchema.validate(req.body);
+    const { error } = mailRequestBodySchema.validate(req.body);
     if (error) {
         logger.error(error);
         return res.status(400).json({ message: 'Validation failed', error });
-    } */
+    }
     const { modifiedFileName, message } = req.body;
     const result = await fetchUserAndRecordingByModifiedFileName(modifiedFileName);
 

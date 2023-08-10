@@ -1,5 +1,5 @@
 /**
- * Author: John Doe
+ * Author: Amrendra Kumar Singh
  * Description: This file contains a utility function for generating JWT tokens.
  * It uses the `jsonwebtoken` library and the JWT secret from the configuration file.
  */

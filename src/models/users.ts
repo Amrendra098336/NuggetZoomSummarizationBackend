@@ -18,7 +18,6 @@ export interface IUser extends Document {
     email: string;
     password: string;
     dateOfBirth: Date;
-    gender: string;
     recordings: Schema.Types.ObjectId[];
     createdAt: Date;
     updatedAt: Date;
@@ -58,11 +57,6 @@ const UserSchema: Schema = new Schema({
     dateOfBirth: {
         type: Date,
         required: true
-    },
-    gender: {
-        type: String,
-        required: true,
-        enum: ['male', 'female', 'other']
     },
     recordings: [
         {

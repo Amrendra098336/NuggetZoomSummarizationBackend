@@ -20,8 +20,7 @@ export const validateUser = (user: IUser) => {
         lastName: Joi.string().min(3).max(50).required(),
         email: Joi.string().email().required(),
         password: Joi.string().required(),
-        dateOfBirth: Joi.date().required(),
-        gender: Joi.string().valid('male', 'female', 'other').required()
+        dateOfBirth: Joi.date().required()
     });
 
     return schema.validate(user);

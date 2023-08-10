@@ -40,7 +40,7 @@ const createUser = async (req: Request, res: Response, next: NextFunction) => {
         return res.status(400).json({ error: error.details[0].message });
     }
 
-    const { firstName, lastName, email, password, dateOfBirth, gender } = req.body;
+    const { firstName, lastName, email, password, dateOfBirth } = req.body;
 
     // Check if a user already exists with the given email
     const existingUser = await User.findOne({ email });
@@ -50,7 +50,7 @@ const createUser = async (req: Request, res: Response, next: NextFunction) => {
         return res.status(400).json({ error: logMessages.warning.userExists, email });
     }
 
-    const newUser = new User({ firstName, lastName, email, password, dateOfBirth, gender });
+    const newUser = new User({ firstName, lastName, email, password, dateOfBirth });
 
     try {
         const savedUser = await newUser.save();

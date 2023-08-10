@@ -1463,3 +1463,106 @@
 [2023-08-10 09:38:28] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [200]
 [2023-08-10 14:19:03] : [INFO] :: Successfully connected to MongoDB
 [2023-08-10 14:19:03] : [INFO] :: Server is running on port 9090
+[2023-08-10 15:05:19] : [ERROR] :: Unable to connect to MongoDB
+[2023-08-10 15:05:19] : [ERROR] :: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+[2023-08-10 15:05:43] : [ERROR] :: Unable to connect to MongoDB
+[2023-08-10 15:05:43] : [ERROR] :: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+[2023-08-10 15:13:13] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 15:13:13] : [INFO] :: Server is running on port 9090
+[2023-08-10 15:29:09] : [INFO] :: Incoming Request Method:  [GET] - URL: [/] IP: [::1]
+[2023-08-10 15:29:09] : [ERROR] :: Not Found
+[2023-08-10 15:29:09] : [INFO] :: Outgoing Response Method:  [GET] - URL: [/] IP: [::1] - Status: [404]
+[2023-08-10 15:40:28] : [INFO] :: Incoming Request Method:  [POST] - URL: [/mail/sendmail] IP: [::1]
+[2023-08-10 15:40:28] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/mail/sendmail] IP: [::1] - Status: [400]
+[2023-08-10 15:40:46] : [INFO] :: Incoming Request Method:  [POST] - URL: [/mail/sendmail] IP: [::1]
+[2023-08-10 15:40:47] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [404]
+[2023-08-10 15:40:55] : [INFO] :: Incoming Request Method:  [POST] - URL: [/mail/sendmail] IP: [::1]
+[2023-08-10 15:40:55] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [404]
+[2023-08-10 15:40:58] : [INFO] :: Incoming Request Method:  [POST] - URL: [/mail/sendmail] IP: [::1]
+[2023-08-10 15:40:58] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [404]
+[2023-08-10 15:41:53] : [INFO] :: Incoming Request Method:  [POST] - URL: [/mail/sendmail] IP: [::1]
+[2023-08-10 15:41:55] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [200]
+[2023-08-10 15:46:11] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 15:46:11] : [INFO] :: Server is running on port 9090
+[2023-08-10 15:47:24] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 15:47:24] : [INFO] :: Server is running on port 9090
+[2023-08-10 15:48:17] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 15:48:17] : [INFO] :: Server is running on port 9090
+[2023-08-10 15:48:24] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 15:48:24] : [INFO] :: Server is running on port 9090
+[2023-08-10 15:48:25] : [INFO] :: Incoming Request Method:  [POST] - URL: [/mail/sendmail] IP: [::1]
+[2023-08-10 15:48:27] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [200]
+[2023-08-10 15:48:30] : [INFO] :: Incoming Request Method:  [POST] - URL: [/mail/sendmail] IP: [::1]
+[2023-08-10 15:48:31] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [200]
+[2023-08-10 15:51:41] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 15:51:41] : [INFO] :: Server is running on port 9090
+[2023-08-10 15:52:00] : [INFO] :: Incoming Request Method:  [POST] - URL: [/mail/sendmail] IP: [::1]
+[2023-08-10 15:52:02] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [200]
+[2023-08-10 15:52:34] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 15:52:34] : [INFO] :: Server is running on port 9090
+[2023-08-10 15:52:47] : [INFO] :: Incoming Request Method:  [POST] - URL: [/mail/sendmail] IP: [::1]
+[2023-08-10 15:52:48] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [200]
+[2023-08-10 15:53:34] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 15:53:34] : [INFO] :: Server is running on port 9090
+[2023-08-10 15:53:40] : [INFO] :: Incoming Request Method:  [POST] - URL: [/mail/sendmail] IP: [::1]
+[2023-08-10 15:53:41] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [200]
+[2023-08-10 15:56:59] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 15:56:59] : [INFO] :: Server is running on port 9090
+[2023-08-10 15:57:04] : [INFO] :: Incoming Request Method:  [POST] - URL: [/mail/sendmail] IP: [::1]
+[2023-08-10 15:57:05] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [200]
+[2023-08-10 15:58:45] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 15:58:45] : [INFO] :: Server is running on port 9090
+[2023-08-10 15:58:56] : [INFO] :: Incoming Request Method:  [POST] - URL: [/mail/sendmail] IP: [::1]
+[2023-08-10 15:58:58] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [200]
+[2023-08-10 15:59:40] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 15:59:40] : [INFO] :: Server is running on port 9090
+[2023-08-10 16:00:00] : [INFO] :: Incoming Request Method:  [POST] - URL: [/mail/sendmail] IP: [::1]
+[2023-08-10 16:00:02] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [200]
+[2023-08-10 16:01:51] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 16:01:51] : [INFO] :: Server is running on port 9090
+[2023-08-10 16:02:01] : [INFO] :: Incoming Request Method:  [POST] - URL: [/mail/sendmail] IP: [::1]
+[2023-08-10 16:02:03] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [200]
+[2023-08-10 16:02:35] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 16:02:35] : [INFO] :: Server is running on port 9090
+[2023-08-10 16:02:36] : [INFO] :: Incoming Request Method:  [POST] - URL: [/mail/sendmail] IP: [::1]
+[2023-08-10 16:02:37] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [200]
+[2023-08-10 16:05:10] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 16:05:10] : [INFO] :: Server is running on port 9090
+[2023-08-10 16:05:20] : [INFO] :: Incoming Request Method:  [POST] - URL: [/mail/sendmail] IP: [::1]
+[2023-08-10 16:05:22] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [200]
+[2023-08-10 16:11:49] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 16:11:49] : [INFO] :: Server is running on port 9090
+[2023-08-10 16:11:54] : [INFO] :: Incoming Request Method:  [POST] - URL: [/mail/sendmail] IP: [::1]
+[2023-08-10 16:11:56] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [200]
+[2023-08-10 16:45:21] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 16:45:21] : [INFO] :: Server is running on port 9090
+[2023-08-10 16:45:37] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 16:45:37] : [INFO] :: Server is running on port 9090
+[2023-08-10 16:46:28] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 16:46:28] : [INFO] :: Server is running on port 9090
+[2023-08-10 16:47:26] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 16:47:26] : [INFO] :: Server is running on port 9090
+[2023-08-10 17:36:15] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 17:36:15] : [INFO] :: Server is running on port 9090
+[2023-08-10 17:44:31] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 17:44:31] : [INFO] :: Server is running on port 9090
+[2023-08-10 17:44:44] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 17:44:44] : [INFO] :: Server is running on port 9090
+[2023-08-10 17:45:00] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 17:45:00] : [INFO] :: Server is running on port 9090
+[2023-08-10 17:45:08] : [INFO] :: Incoming Request Method:  [POST] - URL: [/mail/sendmail] IP: [::1]
+[2023-08-10 17:45:11] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [200]
+[2023-08-10 17:47:42] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 17:47:42] : [INFO] :: Server is running on port 9090
+[2023-08-10 17:50:07] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 17:50:07] : [INFO] :: Server is running on port 9090
+[2023-08-10 17:50:46] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 17:50:46] : [INFO] :: Server is running on port 9090
+[2023-08-10 17:51:45] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 17:51:45] : [INFO] :: Server is running on port 9090
+[2023-08-10 17:52:05] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 17:52:05] : [INFO] :: Server is running on port 9090
+[2023-08-10 17:55:30] : [INFO] :: Incoming Request Method:  [POST] - URL: [/mail/sendmail] IP: [::1]
+[2023-08-10 17:55:32] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [200]
+[2023-08-10 18:13:56] : [INFO] :: Incoming Request Method:  [POST] - URL: [/mail/sendmail] IP: [::1]
+[2023-08-10 18:13:58] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [200]
