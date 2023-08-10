@@ -15,7 +15,9 @@ const MONGO_USERNAME = process.env.MONGO_USERNAME || '';
 const MONGO_PASSWORD = process.env.MONGO_PASSWORD || '';
 
 // Construct the MongoDB URL with the username and password
-const MONGO_URL = `mongodb+srv://${MONGO_USERNAME}:${MONGO_PASSWORD}@cluster0.r5aue46.mongodb.net/?retryWrites=true&w=majority/NuggetZoomApplication`;
+const MONGO_URL = `mongodb+srv://${MONGO_USERNAME}:${MONGO_PASSWORD}@nuggetzoom.lnmb6kb.mongodb.net/NuggetZoomSummary?retryWrites=true&w=majority`;
+//`mongodb+srv://${MONGO_USERNAME}:${MONGO_PASSWORD}@cluster0.r5aue46.mongodb.net/?retryWrites=true&w=majority`;
+//mongodb+srv://nuggetsmeetingsummary:<password>@nuggetzoom.lnmb6kb.mongodb.net/?retryWrites=true&w=majority
 
 // Retrieve the server port from the environment variable, defaulting to 1337
 const SERVER_PORT = process.env.SERVER_PORT ? Number(process.env.SERVER_PORT) : 1337;
