@@ -1,0 +1,39 @@
+{
+    "info": {
+        "connectedToMongoDB": "Successfully connected to MongoDB",
+        "serverRunning": "Server is running on port",
+        "incomingRequest": "Incoming Request Method: ",
+        "outgoingResponse": "Outgoing Response Method: ",
+        "tokenNotProvided": "No token provided in the request from: ",
+        "authenticated": "Token successfully authenticated for user: ",
+        "tokenGenerated": "Token generated successfully for user: ",
+        "userCreated": "User created successfully",
+        "userRetrieved": "User retrieved successfully",
+        "userUpdated": "User updated successfully",
+        "passwordUpdated": "Password updated successfully",
+        "userDeleted": "User deleted successfully",
+        "userLoggedIn": "User logged in successfully",
+        "FileUploaded": "File uploaded successfully to S3. URL:"
+    },
+    "error": {
+        "unableToConnectToMongoDB": "Unable to connect to MongoDB",
+        "notFound": "Resource not found",
+        "failAuthenticate": "Failed to authenticate token",
+        "failTokenGeneration": "Failed to generate token",
+        "userCreationFailed": "Failed to create user",
+        "userUpdateFailed": "Failed to update user",
+        "passwordUpdateFailed": "Failed to update password",
+        "userDeletionFailed": "Failed to delete user",
+        "loginFailed": "Failed to log in user",
+        "userRetrievalFailed": "Failed to retrieve user",
+        "invalidEmail": "Invalid email address provided",
+        "invalidLoginRequestBody": "Invalid request body. Please provide valid 'email' and 'password' fields.",
+        "FileNotUploaded": "File not uploaded to the S3 Bucket"
+    },
+    "warning": {
+        "userExists": "User already exists",
+        "userNotFound": "User not found",
+        "unauthorizedAccess": "Unauthorized access",
+        "invalidCredentials": "Invalid email or password"
+    }
+}
