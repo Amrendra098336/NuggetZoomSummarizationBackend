@@ -76,8 +76,12 @@ export async function sendEmail(to: string, subject: string, name: string, text:
     };
 
     try {
-        // Sending the email.
         const info = await transport.sendMail(mailOption);
+
+        // Log the successful email info.
+        Logging.info(`Email sent successfully. Info: ${JSON.stringify(info)}`);
+
+        // Return the mail options (or modify this to return the `info` if that is more appropriate).
         return mailOption;
     } catch (err) {
         Logging.error(`Email: ${err}`);

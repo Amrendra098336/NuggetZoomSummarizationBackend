@@ -45,6 +45,7 @@ const logger = Logging;
  */
 
 const sendMail = async (req: Request, res: Response, next: NextFunction) => {
+    console.log('inside sendMail');
     const { error } = mailRequestBodySchema.validate(req.body);
     if (error) {
         logger.error(error);
@@ -57,6 +58,8 @@ const sendMail = async (req: Request, res: Response, next: NextFunction) => {
         // Check added here for result.user
         return res.status(404).json({ message: 'No user data found for the given file name.' });
     }
+
+    console.log('dcdc ' + result.user.email);
 
     try {
         await sendEmail(result.user.email, `Summary for Meeting: ${result.recording?.meetingTitle}`, result.user.firstName, message);
@@ -80,9 +83,11 @@ const fetchUserAndRecordingByModifiedFileName = async (modifiedFileName: string)
     if (!recording) {
         return { user: null, recording: null };
     }
+    console.log(recording);
 
     const email = recording?.email;
     const user = await User.findOne({ email: new RegExp('^' + email + '$', 'i') }).populate('recordings');
+    console.log(user);
 
     return { user, recording };
 };

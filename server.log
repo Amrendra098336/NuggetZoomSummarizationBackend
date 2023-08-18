@@ -1566,3 +1566,44 @@
 [2023-08-10 17:55:32] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [200]
 [2023-08-10 18:13:56] : [INFO] :: Incoming Request Method:  [POST] - URL: [/mail/sendmail] IP: [::1]
 [2023-08-10 18:13:58] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [200]
+[2023-08-10 19:11:22] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 19:11:22] : [INFO] :: Server is running on port 9090
+[2023-08-10 19:11:33] : [INFO] :: Incoming Request Method:  [POST] - URL: [/mail/sendmail] IP: [::1]
+[2023-08-10 19:11:34] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [404]
+[2023-08-10 19:11:36] : [INFO] :: Incoming Request Method:  [POST] - URL: [/mail/sendmail] IP: [::1]
+[2023-08-10 19:11:36] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [404]
+[2023-08-10 19:11:38] : [INFO] :: Incoming Request Method:  [POST] - URL: [/mail/sendmail] IP: [::1]
+[2023-08-10 19:11:38] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [404]
+[2023-08-10 19:11:39] : [INFO] :: Incoming Request Method:  [POST] - URL: [/mail/sendmail] IP: [::1]
+[2023-08-10 19:11:39] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [404]
+[2023-08-10 19:13:20] : [INFO] :: Incoming Request Method:  [POST] - URL: [/mail/sendmail] IP: [::1]
+[2023-08-10 19:13:20] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [404]
+[2023-08-10 19:14:05] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 19:14:05] : [INFO] :: Server is running on port 9090
+[2023-08-10 19:14:07] : [INFO] :: Incoming Request Method:  [POST] - URL: [/mail/sendmail] IP: [::1]
+[2023-08-10 19:14:07] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [404]
+[2023-08-10 19:14:29] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 19:14:29] : [INFO] :: Server is running on port 9090
+[2023-08-10 19:14:37] : [INFO] :: Incoming Request Method:  [POST] - URL: [/mail/sendmail] IP: [::1]
+[2023-08-10 19:14:37] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [404]
+[2023-08-10 19:19:33] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 19:19:33] : [INFO] :: Server is running on port 9090
+[2023-08-10 19:19:35] : [INFO] :: Incoming Request Method:  [POST] - URL: [/mail/sendmail] IP: [::1]
+[2023-08-10 19:19:35] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [404]
+[2023-08-10 19:20:09] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 19:20:09] : [INFO] :: Server is running on port 9090
+[2023-08-10 19:20:12] : [INFO] :: Incoming Request Method:  [POST] - URL: [/mail/sendmail] IP: [::1]
+[2023-08-10 19:20:12] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [404]
+[2023-08-10 19:20:37] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 19:20:37] : [INFO] :: Server is running on port 9090
+[2023-08-10 19:21:00] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 19:21:00] : [INFO] :: Server is running on port 9090
+[2023-08-10 19:21:02] : [INFO] :: Incoming Request Method:  [POST] - URL: [/mail/sendmail] IP: [::1]
+[2023-08-10 19:21:02] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [404]
+[2023-08-10 19:21:29] : [INFO] :: Successfully connected to MongoDB
+[2023-08-10 19:21:29] : [INFO] :: Server is running on port 9090
+[2023-08-10 19:21:31] : [INFO] :: Incoming Request Method:  [POST] - URL: [/mail/sendmail] IP: [::1]
+[2023-08-10 19:21:31] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [404]
+[2023-08-10 19:23:59] : [INFO] :: Incoming Request Method:  [POST] - URL: [/mail/sendmail] IP: [::1]
+[2023-08-10 19:24:01] : [INFO] :: Email sent successfully. Info: {"accepted":["amrendra8336@gmail.com"],"rejected":[],"ehlo":["SIZE 35882577","8BITMIME","AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH","ENHANCEDSTATUSCODES","PIPELINING","CHUNKING","SMTPUTF8"],"envelopeTime":570,"messageTime":856,"messageSize":2512,"response":"250 2.0.0 OK  1691709841 e23-20020a05620a12d700b00767ceac979asm820561qkl.42 - gsmtp","envelope":{"from":"no-reply@nugget.com","to":["amrendra8336@gmail.com"]},"messageId":"<115d07e2-d40d-e8b8-8ddf-ced715d59b44@nugget.com>"}
+[2023-08-10 19:24:01] : [INFO] :: Outgoing Response Method:  [POST] - URL: [/sendmail] IP: [::1] - Status: [200]
